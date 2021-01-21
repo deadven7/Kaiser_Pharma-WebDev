@@ -1,0 +1,236 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans';
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu { 
+        display: none; 
+    }
+	.navbar .nav-item:hover .nav-link { 
+        color: inherit;  
+    }
+	.navbar .nav-item:hover .dropdown-menu { 
+        display: block; 
+    }
+	.navbar .nav-item .dropdown-menu { 
+        margin-top:0; 
+    }
+}
+.phlinks {
+    display: none;
+}
+@media (max-width: 992px) {
+    .navbar-default {
+        background: #ffffff !important;
+        opacity: 90% !important;
+    }
+    .jumbotron {
+        display: none;
+    }
+    .phtitle {
+        display: none;
+    }
+    .phlogos {
+        display: none;
+    }
+    .phlinks {
+        display: block;
+    }
+    .tablehead {
+        font-size: 14px !important;
+    }
+    .tableinfo {
+        font-size: 12px !important;
+    }
+    .maintitle {
+        font-size: 16px !important;
+    }
+    .footerheading {
+        font-size: 16px !important;
+    }
+    .footersubheading {
+        font-size: 14px !important;
+    }
+    .footersubheading2 {
+        font-size: 12px !important;
+    }
+    .footertext {
+        font-size: 12px !important;
+    }
+}
+.logo {
+    height: 70px;
+    width: 250px;
+}
+.logo:hover {
+    height: 80px;
+    width: 300px;
+    transition: height 0.2s, width 0.2s;
+}
+.navbar {
+    border: 0;
+    line-height: 1.42857143;
+    letter-spacing: 2px;
+    border-radius: 0;
+    font-family: 'Verdana';
+}
+.navbar li .nav-link, .navbar .navbar-brand {
+    font-size: 22px;
+    font-weight: 800; 
+    font-family: 'Verdana'; 
+    color: #000000 !important;
+}
+.navbar-nav li .nav-link:hover, .navbar-nav li.active .nav-link {
+    color: #ffffff !important;
+    font-size: 23px;
+    font-weight: 800;
+    background-color: #000055;
+    transition: color 0.2s, font-size 0.2s, font-weight 0.2s, background-color 0.2s;
+}
+.navpack {
+    font-size: 22px;
+    font-weight: 800; 
+    font-family: 'Verdana'; 
+    color: #000000;
+}
+.dropdown {
+    text-align: center;
+}
+.dropdown-toggle::after { 
+    content: none; 
+}
+.drop {
+    border-radius: 0px;
+    border: #000055 3px;
+    background-color: #f1f1f1;
+    opacity: 85%;
+    font-family: 'Verdana';
+}
+.dropdowntitles {
+    font-family: 'Verdana';
+    font-size: 20px;
+    color: #000055;
+}
+.dropdownsubtitles {
+    font-family: 'Verdana';
+    font-size: 20x !important;
+    color: #0a0a0a;
+    line-height: 1.42857143;
+}
+.dropdownsubtitles:hover {
+    font-size: 22px;
+    background-color: #4160c0;
+    transition: font-size 0.2s, background-color 0.2s;
+}
+.sec {
+    width: 300px;
+}
+.pack {
+    width: 500px;
+}
+.navbar-default{
+    transition:500ms ease;
+    background: #ffffff;
+    opacity: 90%;
+}
+.navbar-default.scrolled {
+    background: #ffffff;
+    opacity: 90%;
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.jumbotron {
+    background-image: url('contents/images/product-jumbo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: 2px 1px #000000;
+    min-height: 650px;
+    background-color: #fff;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.type1 {
+    background-color: #E1FFD3;
+}
+.type2 {
+    background-color: #FFFDC9;
+}
+.type3 {
+    background-color: #D9FFF5;
+}
+.tablehead {
+    font-family: 'Verdana';
+    font-size: 18px;
+}
+.tableinfo {
+    font-family: 'Verdana';
+    font-size: 14px;
+}
+.maintitle {
+    font-family: 'Verdana';
+    font-size: 18px;
+    font-weight: 400;
+    color: #000055;
+}
+.maintitle:hover {
+    font-size: 19px;
+    transition: font-size 0.2s;
+}
+.maintitle:hover .phlogo {
+    height: 80px;
+    width: 80px;
+    transition: height 0.2s, width 0.2s;
+}
+.phlogo {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}
+.phlogo:hover {
+    height: 80px;
+    width: 80px;
+    transition: height 0.2s, width 0.2s;
+}
+.footer {
+    background-color: #000022;
+    opacity: 75%;
+    font-family: 'Verdana';
+}
+.footerheading {
+    font-size: 22px;
+    color: #00ffff;
+    font-family: 'Verdana';
+}
+.footersubheading {
+    font-size: 20px;
+    color: #f2f3ff;
+    font-family: 'Verdana';
+}
+.footersubheading2 {
+    font-size: 18px;
+    color: #f2f3ff;
+    font-family: 'Verdana';
+}
+.footertext {
+    font-size: 14px;
+    color: #f2f3ff;
+    font-family: 'Verdana';
+}

@@ -1,0 +1,273 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans';
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu { 
+        display: none; 
+    }
+	.navbar .nav-item:hover .nav-link { 
+        color: inherit;  
+    }
+	.navbar .nav-item:hover .dropdown-menu { 
+        display: block; 
+    }
+	.navbar .nav-item .dropdown-menu { 
+        margin-top:0; 
+    }
+}
+.index-title {
+    display: none;
+}
+@media (max-width: 992px) {
+    .navbar-default {
+        background: #ffffff !important;
+        opacity: 90% !important;
+    }
+    .jumbotron {
+        display: none;
+    }
+    .index-title {
+        display: block;
+    }
+    .footerheading {
+        font-size: 16px !important;
+    }
+    .footersubheading {
+        font-size: 14px !important;
+    }
+    .footersubheading2 {
+        font-size: 12px !important;
+    }
+    .footertext {
+        font-size: 12px !important;
+    }
+    .aboutbtn {
+        font-size: 18px !important;
+    }
+    .prodbtn {
+        font-size: 18px !important;
+    }
+    .indiabtn {
+        font-size: 18px !important;
+    }
+    .regbtn {
+        font-size: 18px !important;
+    }
+}
+.logo {
+    height: 70px;
+    width: 250px;
+}
+.logo:hover {
+    height: 80px;
+    width: 300px;
+    transition: height 0.2s, width 0.2s;
+}
+.navbar {
+    border: 0;
+    line-height: 1.42857143;
+    letter-spacing: 2px;
+    border-radius: 0;
+    font-family: 'Verdana';
+}
+.navbar li .nav-link, .navbar .navbar-brand {
+    font-size: 22px;
+    font-weight: 800; 
+    font-family: 'Verdana'; 
+    color: #000000 !important;
+}
+.navbar-nav li .nav-link:hover, .navbar-nav li.active .nav-link {
+    color: #ffffff !important;
+    font-size: 23px;
+    font-weight: 800;
+    background-color: #000055;
+    transition: color 0.2s, font-size 0.2s, font-weight 0.2s, background-color 0.2s;
+}
+.navpack {
+    font-size: 22px;
+    font-weight: 800; 
+    font-family: 'Verdana'; 
+    color: #000000;
+}
+.dropdown {
+    text-align: center;
+}
+.dropdown-toggle::after { 
+    content: none; 
+}
+.drop {
+    border-radius: 0px;
+    border: #000055 3px;
+    background-color: #f1f1f1;
+    opacity: 85%;
+    font-family: 'Verdana';
+}
+.dropdowntitles {
+    font-family: 'Verdana';
+    font-size: 20px;
+    color: #000055;
+}
+.dropdownsubtitles {
+    font-family: 'Verdana';
+    font-size: 20x !important;
+    color: #0a0a0a;
+    line-height: 1.42857143;
+}
+.dropdownsubtitles:hover {
+    font-size: 22px;
+    background-color: #4160c0;
+    transition: font-size 0.2s, background-color 0.2s;
+}
+.sec {
+    width: 300px;
+}
+.pack {
+    width: 500px;
+}
+.navbar-default{
+    transition:500ms ease;
+    background: transparent;
+}
+.navbar-default.scrolled {
+    background: #ffffff;
+    opacity: 90%;
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.jumbotron {
+    background-image: url('contents/images/jumbotron.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: 2px 1px #000000;
+    min-height: 700px;
+    background-color: #fff;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 5px #000055;
+    background-color: #000055;
+}
+.aboutbtn {
+    background-color: #ffffff;
+    float: right;
+    color: #000055;
+    font-family: Verdana;
+    font-size: 22px;
+    font-weight: 800;
+    border: 2px solid #000055;
+    border-radius: 5px;
+    padding: 10px;
+}
+.aboutbtn:hover {
+    background-color: #000055;
+    color: #ffffff;
+    border: transparent;
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+    transition: boxshadow 0.5s, background-color 0.5s, color 0.5s, border 0.5s;
+}
+.prodbtn {
+    background-color: #2E782A;
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 27px;
+    font-weight: 800;
+    border: transparent;
+    border-radius: 5px;
+    padding: 10px;
+}
+.prodbtn:hover {
+    background-color: #222222;
+    color: #ffffff;
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+    transition: boxshadow 0.5s, background-color 0.5s, color 0.5s;
+}
+.indiabtn {
+    background-color: #ffffff;
+    float: right;
+    color: #003300;
+    font-family: Verdana;
+    font-size: 22px;
+    font-weight: 800;
+    border: 2px solid #003300;
+    border-radius: 5px;
+    padding: 10px;
+}
+.indiabtn:hover {
+    background-color: #003300;
+    color: #ffffff;
+    border: transparent;
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+    transition: boxshadow 0.5s, background-color 0.5s, color 0.5s, border 0.5s;
+}
+.regbtn {
+    background-color: #ffffff;
+    color:  #94c1d3;
+    float: right;
+    font-family: Verdana;
+    font-size: 27px;
+    font-weight: 800;
+    border: 2px #4160c0;
+    border-radius: 5px;
+    padding: 10px;
+}
+.regbtn:hover {
+    background-color: #4160c0;
+    color: #ffffff;
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+    transition: boxshadow 0.5s, background-color 0.5s, color 0.5s;
+}
+.categories {
+    background-color: transparent;
+    box-shadow: 2px 0px 10px rgba(0,0,0, .2); 
+}
+.footer {
+    background-color: #000022;
+    opacity: 75%;
+    font-family: 'Verdana';
+}
+.footerheading {
+    font-size: 22px;
+    color: #00ffff;
+    font-family: 'Verdana';
+}
+.footersubheading {
+    font-size: 20px;
+    color: #f2f3ff;
+    font-family: 'Verdana';
+}
+.footersubheading2 {
+    font-size: 18px;
+    color: #f2f3ff;
+    font-family: 'Verdana';
+}
+.footertext {
+    font-size: 14px;
+    color: #f2f3ff;
+    font-family: 'Verdana';
+}
